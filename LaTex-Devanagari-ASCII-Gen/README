@@ -1,0 +1,11 @@
+Code Contributed by: N Ramrakhiyani
+Development Date: 10-November-2013
+Purpose: Given Unicode Hindi text, the program generates the necessary ASCII text for use in LaTex files
+Setup:
+1) Place your input Hindi text in the file 01-input.txt
+2) Now execute the generateASCII.sh to generate the final output in the file 03-final-ascii.tex
+3) The intermediate Velthius code in generated in the 02-velthius-coded.dn file
+
+Note:
+1) This code works using a map between the Unicode Hindi characters and the corresponding Velthius characters. It has been taken care that no characters are missed, but there may be certain characters which are not covered by the map and hence lead to faulty Velthius code generation and in turn a faulty LaTex ASCII codes. It is requested that the user checks the generated LaTex ASCII codes by generation of actual Hindi output using the LaTex program.
+2) If there is found an error as explained in point 1, the necessary mapping can be added to file map.txt. The program can then be retested.
