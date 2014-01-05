@@ -1,2 +1,11 @@
-Sr.No.	Folder			Information
-1	RandomFileSelector	Select files randomly from select dictionaries with control through a configuration file
+The accompanying folders carry code written at various points of necessity and help in accomplishing random utilities and other code chunks. Each folder carries codes, documentaion, help files for the same. This file gives a brief about each folder.
+
+Sr. No. 1
+Folder Name: RandomFileSelector
+Added: 04-Jan-2014
+Use: Select files randomly from dictionaries of choice with control through a configuration file
+
+Sr. No. 2
+Folder Name: LaTex-Devanagari-ASCII-Gen
+Added: 05-Jan-2014
+USe: Given Unicode Hindi text, the program generates the necessary ASCII text for use in LaTex files
